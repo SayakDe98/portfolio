@@ -4,9 +4,15 @@ import React from "react";
 import EMarket from "../assets/EMarket.webm";
 import MeetSamantha from "../assets/MeetSamantha.webm";
 import ScreenAndVideoRecorder from "../assets/ScreenAndVideoRecorder.webm";
+import StackUnderflow from "../assets/StackUnderflow.webm";
 
 const Projects = () => {
-  const videos = [EMarket, MeetSamantha, ScreenAndVideoRecorder];
+  const videos = [
+    EMarket,
+    MeetSamantha,
+    ScreenAndVideoRecorder,
+    StackUnderflow,
+  ];
   return (
     <Stack alignItems="center" justifyContent="center" id="projects">
       <Code fontSize="large" sx={{ color: "grey" }} />
